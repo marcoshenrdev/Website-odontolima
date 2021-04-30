@@ -11,10 +11,48 @@ body{
 .nav-link{
   color: rgb(255, 255, 255);
 }
+
 .card{
-  padding-top: 20px;
+  margin-top: 1.5cm;
+  height: 11cm;
 
   
+}
+.tcard{
+  background-color: rgb(218, 165, 32);
+  height: 8cm;
+}
+.card-title{
+  font-size: 1cm;
+}
+.card-text {
+  font-size: 0.8cm;
+}
+.card-header{
+  background-color:rgb(218, 165, 32);
+  color: white;
+  font-size: 20px;
+}
+.card-body{
+  background-color: rgb(255, 255, 255);
+}
+.iinsta{
+  color: blueviolet;
+  font-size: 20px;
+}
+.iwpp {
+  color: rgb(0, 185, 46);
+  font-size: 18px;
+}
+.iface {
+  color: rgb(35, 35, 255);
+  font-size: 20px;
+}
+.iemail {
+  font-size: 18px;
+}
+.iphone {
+  font-size: 16px;
 }
 
 .footer{
@@ -45,7 +83,57 @@ body{
     margin-right: 1cm;
     padding-bottom: 5cm;
 
-  }}
+  }
+  .card-title{
+    font-size: 0.6cm;
+  }
+  .card-text{
+    font-size: 0.4cm;
+  }
+  .texto {
+    background-color: rgb(218, 165, 32);
+    font-size: 0.7cm;
+    text-shadow: 2px 2px rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+}
+  @media (min-width: 600px) {
+    .card {
+  
+      text-align: center;
+      align-content: center;
+      margin-left: 1cm;
+      margin-right: 1cm;
+      padding-bottom: 5cm;
+  
+    }
+    .cartao{
+      max-height: 27cm;
+      max-width: 17cm;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .titulo {
+      font-size: 2cm;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px rgb(218, 165, 32);
+      font-style: italic;
+    }
+    .card-title{
+      font-size: 1.5cm;
+    }
+    .card-text{
+      font-size: 0.4cm;
+    }
+    .texto {
+      background-color: rgb(218, 165, 32);
+      font-size: 0.7cm;
+      text-shadow: 2px 2px rgb(27, 27, 27);
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+  }
 
 
   @media (max-width: 600px) {
@@ -54,4 +142,15 @@ body{
       padding-top: 0.3cm;
   
     }
+    .cartao{
+      width: 11cm;
+      height: 7cm;
+    }
+    .titulo {
+      font-size: 1cm;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px rgb(218, 165, 32);
+      font-style: italic;
+    }
+
     }

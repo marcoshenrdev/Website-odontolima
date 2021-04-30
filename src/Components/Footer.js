@@ -6,8 +6,8 @@ export default class Footer extends Component {
 
             <footer className="footer floating">
                 <div className="icons">
-                    <i className="fab fa-facebook-square"></i> facebook.com/odontolima
-                <br /><i className="fab fa-instagram"></i> instagram.com/clinicaodontolima
+                    <i className="fab fa-facebook-square"></i> facebook.com/OdontoLimaBrasilia
+                <br /><i className="fab fa-instagram"></i> instagram.com/consultorioodontolima
             </div>
                 <div className="phone">
                     <i className="fas fa-phone-square"></i>

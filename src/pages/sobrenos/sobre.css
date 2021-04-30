@@ -33,7 +33,9 @@ body{
     margin-top: -40px;
     font-size: 13px;
   }
-
+  @media (max-width: 600px) {
+    
+  }
 
     @media (max-width: 600px) {
       .footer .icons {

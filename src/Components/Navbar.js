@@ -17,9 +17,9 @@ export default class Navbar extends Component {
 
                     <div className="navbar-nav collapse navbar-collapse" id="navbarMainToggler">
                         <a className="nav-link">Sobre Nós</a>
-                        <a className="nav-link">Unidades</a>
-                        <a className="nav-link">Parceiros</a>
-                        <a className="nav-link">Agendar consulta</a>
+                        <a className="nav-link">Localização</a>
+                        <a className="nav-link">Contato</a>
+                        <button type="button" className="btn btn-warning text-white border-light ml-3">Atendimento de Emergência</button>
                     </div>
 
 
