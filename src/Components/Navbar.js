@@ -7,7 +7,7 @@ export default class Navbar extends Component {
         return (
             <div className='container-fluid p-0'>
                 <nav className="navbar navbar-expand-md w-100">
-                    <a className="navbar-brand"><i className="fas fa-tooth" style={{ fontSize: 35 }} />&nbsp;OdontoLima</a>
+                    <a href="../" className="navbar-brand" style={{  color: 'white' }}><i className="fas fa-tooth" style={{ fontSize: 35, color: 'white' }} />&nbsp;OdontoLima</a>
 
                     <button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarMainToggler"
                         aria-controls="navbarMainToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,10 +16,10 @@ export default class Navbar extends Component {
 
 
                     <div className="navbar-nav collapse navbar-collapse" id="navbarMainToggler">
-                        <a className="nav-link">Sobre Nós</a>
-                        <a className="nav-link">Localização</a>
-                        <a className="nav-link">Contato</a>
-                        <button type="button" className="btn btn-warning text-white border-light ml-3">Atendimento de Emergência</button>
+                        <a className="nav-link" href="../sobre">Sobre Nós</a>
+                        <a className="nav-link" href="../localizacao">Localização</a>
+                        <a className="nav-link" href="../contato">Contato</a>
+                        <a href="../atendimentodeemergencia" class="btn btn-warning text-white border-light ml-3" role="button" aria-pressed="true">Atendimento de Emergência</a>
                     </div>
 
 

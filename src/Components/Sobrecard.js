@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../pages/sobrenos/sobre.css';
 
 export default class Sobrecard extends Component {
     render() {
