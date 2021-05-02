@@ -127,8 +127,8 @@ body{
 @media (max-width: 600px) {
   .sobrecardtitle{
     margin-top: 1cm;
-    color: rgb(0, 0, 0);
-    text-shadow: 3px 3px rgb(228, 228, 228);
+    color: rgb(34, 200, 255);
+    text-shadow: 2px 2px rgb(51, 51, 51);
     text-decoration: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -141,9 +141,30 @@ body{
     width: 20cm;
     height: 25cm;
   }
+  .fotosobre{
+    margin-right: auto;
+    margin-left: auto;
+    width: 16cm;
+    height: 7cm;
+  }
+  .cardctt{
+    margin-top: 1cm;
+    height: 10cm;
+    width: 10cm;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.5cm;
+  }
+  .cardcttheader{
+    background-color: rgb(34, 200, 255);
+    color: white;
+  }
+  .cardctttext{
+   font-style: italic;
+  }
   .cardemerg{
     width: 15cm;
-    height: 10cm;
+    height: 14cm;
     margin-top: 1cm;
   }
   .cardemergimg{
@@ -154,6 +175,7 @@ body{
     background-color: rgb(34, 200, 255);
     color: white;
     text-align: center;
+    font-style: italic;
   
   }
   .cardemergtitle{
@@ -175,12 +197,18 @@ body{
 
 }
   @media (min-width: 600px) {
+    .fotosobre{
+      margin-right: auto;
+      margin-left: auto;
+      width: 30cm;
+      height: 12cm;
+    }
     .sobrecardimg{
       width: 22cm;
       height:15cm;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 2cm;
+      margin-top: 1cm;
     }
     .sobrecardtext{
       margin-right: 10cm;
@@ -188,7 +216,7 @@ body{
       margin-top: 2cm;
     }
     .sobrecardtitle{
-      margin-top: 3cm;
+      margin-top: 1cm;
       color: rgb(255, 255, 255);
       text-shadow: 3px 3px rgb(82, 82, 82);
       text-decoration: rgb(255, 255, 255);
@@ -200,9 +228,10 @@ body{
       margin-right: auto;
 
     }
+
     .cardemerg{
       width: 15cm;
-      height: 10cm;
+      height: 15cm;
       margin-top: 1cm;
       margin-left: auto;
       margin-right: auto;
@@ -215,6 +244,7 @@ body{
       background-color: rgb(34, 200, 255);
       color: white;
       text-align: center;
+      font-style: italic;
     
     }
     .cardemergtitle{
