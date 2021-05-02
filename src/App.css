@@ -1,10 +1,13 @@
 body{
-  background-image: url(./images/backg.jpg);
+  background-image: url(./images/backg2.jpg);
   overflow-x: hidden;
+  background-size: 100% 20cm;
+  background-repeat: no-repeat;
 }
 
+
 .navbar{
-  background-color: rgb(218, 165, 32);
+  background-color: rgb(34, 200, 255);
   color: rgb(255, 255, 255);
 }
 
@@ -12,29 +15,76 @@ body{
   color: rgb(255, 255, 255);
 }
 
-.card{
-  margin-top: 1.5cm;
-  height: 11cm;
-
+.homecard{
+ margin-top: 2cm;
+ background-color: rgb(34, 200, 255);
+ text-align: center;
+ margin-bottom: 2cm;
+}
+.homecardtext{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.homecardtitle{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 0.8cm;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+ 
+}
+.sobrecardtitle{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 0.8cm;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(0, 0, 0);
   
 }
-.tcard{
-  background-color: rgb(218, 165, 32);
-  height: 8cm;
+.sobrecardtext{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  font-weight: bold;
 }
-.card-title{
-  font-size: 1cm;
+.cardlocal{
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  width: 15cm;
+  margin-left: auto;
+  margin-right: auto;
 }
-.card-text {
+.cardlocalheader{
+  background-color: rgb(34, 200, 255);
+  color: white;
+  font-size: 0.5cm;
+}
+.cardlocaltitle{
   font-size: 0.8cm;
 }
-.card-header{
-  background-color:rgb(218, 165, 32);
-  color: white;
-  font-size: 20px;
+.cardlocaltext{
+  font-size: 0.7cm;
 }
-.card-body{
-  background-color: rgb(255, 255, 255);
+.cardctt{
+  margin-top: 1cm;
+  height: 10cm;
+  width: 25cm;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.5cm;
+}
+.cardcttheader{
+  background-color: rgb(34, 200, 255);
+  color: white;
+}
+.cardctttext{
+ font-style: italic;
+}
+.emergtexto{
+  font-size: 0.7cm;
 }
 .iinsta{
   color: blueviolet;
@@ -56,12 +106,12 @@ body{
 }
 
 .footer{
-  position: flex;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: rgb(218, 165, 32);
-  color: rgb(40, 90, 255);
+  background-color: rgb(34, 200, 255);
+  color: rgb(255, 255, 255);
 }
 .footer .icons {
   justify-content: left;
@@ -75,82 +125,108 @@ body{
   font-size: 13px;
 }
 @media (max-width: 600px) {
-  .card {
+  .sobrecardtitle{
+    margin-top: 1cm;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px rgb(228, 228, 228);
+    text-decoration: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+  }
+  .sobrecardtext{
+    margin-top: 1.5cm;
+    padding-bottom: 1cm;
+  }
+  .sobrecardimg{
+    width: 20cm;
+    height: 25cm;
+  }
+  .cardemerg{
+    width: 15cm;
+    height: 10cm;
+    margin-top: 1cm;
+  }
+  .cardemergimg{
+    width: 100%;
+    height: 100%;
+  }
+  .emergtexto{
+    background-color: rgb(34, 200, 255);
+    color: white;
     text-align: center;
-    align-content: center;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    padding-bottom: 5cm;
-
+  
   }
-  .card-title{
-    font-size: 0.6cm;
-  }
-  .card-text{
-    font-size: 0.4cm;
-  }
-  .texto {
-    background-color: rgb(218, 165, 32);
-    font-size: 0.7cm;
-    text-shadow: 2px 2px rgb(27, 27, 27);
+  .cardemergtitle{
     color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(34, 200, 255);
+    text-decoration: rgb(34, 200, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    font-size: 1.4cm;
+    margin-top: 0.7cm;
+    text-decoration: underline;
   }
+
+  .footer .icons {
+    font-size: 10px;
+    padding-top: 0.3cm;
+
+  }
+
 }
   @media (min-width: 600px) {
-    .card {
-  
-      text-align: center;
-      align-content: center;
-      margin-left: 1cm;
-      margin-right: 1cm;
-      padding-bottom: 5cm;
-  
+    .sobrecardimg{
+      width: 22cm;
+      height:15cm;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2cm;
     }
-    .cartao{
-      max-height: 27cm;
-      max-width: 17cm;
+    .sobrecardtext{
+      margin-right: 10cm;
+      margin-left: 10cm;
+      margin-top: 2cm;
+    }
+    .sobrecardtitle{
+      margin-top: 3cm;
+      color: rgb(255, 255, 255);
+      text-shadow: 3px 3px rgb(82, 82, 82);
+      text-decoration: rgb(255, 255, 255);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: rgb(34, 200, 255);
+      width: 20cm;
+      border-radius: 0.1em;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    .cardemerg{
+      width: 15cm;
+      height: 10cm;
+      margin-top: 1cm;
       margin-left: auto;
       margin-right: auto;
     }
-    .titulo {
-      font-size: 2cm;
-      color: rgb(0, 0, 0);
-      text-shadow: 3px 3px rgb(218, 165, 32);
-      font-style: italic;
+    .cardemergimg{
+      width: 100%;
+      height: 100%;
     }
-    .card-title{
-      font-size: 1.5cm;
-    }
-    .card-text{
-      font-size: 0.4cm;
-    }
-    .texto {
-      background-color: rgb(218, 165, 32);
-      font-size: 1cm;
-      text-shadow: 2px 2px rgb(27, 27, 27);
-      color: rgb(255, 255, 255);
+    .emergtexto{
+      background-color: rgb(34, 200, 255);
+      color: white;
       text-align: center;
+    
+    }
+    .cardemergtitle{
+      color: rgb(255, 255, 255);
+      text-shadow: 3px 3px rgb(34, 200, 255);
+      text-decoration: rgb(34, 200, 255);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      font-size: 1.4cm;
+      margin-top: 0.7cm;
+      text-decoration: underline;
     }
   }
 
 
-  @media (max-width: 600px) {
-    .footer .icons {
-      font-size: 10px;
-      padding-top: 0.3cm;
-  
-    }
-    .cartao{
-      width: 11cm;
-      height: 7cm;
-    }
-    .titulo {
-      font-size: 1cm;
-      color: rgb(0, 0, 0);
-      text-shadow: 3px 3px rgb(218, 165, 32);
-      font-style: italic;
-    }
-
-    }

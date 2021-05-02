@@ -10,13 +10,13 @@ export default class Contato extends Component {
         return (
             <>
                 <Navbar />
-                <div className="card text-center">
-                    <div className="card-header">
+                <div className="card text-center cardctt">
+                    <div className="card-header cardcttheader">
                         Contato
                     </div>
                     <div className="card-body">
 
-                        <p className="card-text pt-3">
+                        <p className="card-text pt-3 cardctttext">
                         <i className="iphone fas fa-phone"></i> <i className="iwpp fab fa-whatsapp"></i> Telefone:<br/>(Ligação e Whatsapp)<br/> (61) 9 9334-8464<br/><br/>
                         <i className="iemail fas fa-envelope"></i> E-mail: odontolimabrasilia@hotmail.com<br/><br/>
                         <i className="iface fab fa-facebook"></i> facebook.com/OdontoLimaBrasilia<br/><br/>

@@ -12,13 +12,13 @@ export default class Carousel extends Component {
                 </ol>
                 <div class="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src="https://i.imgur.com/mdjyWUt.jpg" alt="Priemrio slide" />
+                        <img className="d-block w-100" src="https://imgur.com/TMUQ0XO.jpg" alt="Priemrio slide" />
                 </div>
                         <div className="carousel-item">
-                            <img className="d-block w-100" src="https://imgur.com/9c7Ulin.jpg" alt="Segundo Slide" />
+                            <img className="d-block w-100" src="https://imgur.com/5p26qSi.jpg" alt="Segundo Slide" />
                 </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src="https://imgur.com/u8jClQn.jpg" alt="Terceiro Slide" />
+                                <img className="d-block w-100" src="https://imgur.com/77vNgzw.jpg" alt="Terceiro Slide" />
                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

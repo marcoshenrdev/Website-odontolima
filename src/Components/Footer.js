@@ -11,7 +11,7 @@ export default class Footer extends Component {
             </div>
                 <div className="phone">
                     <i className="fas fa-phone-square"></i>
-                    <p>(61) 9 XXXX-XXXX </p>
+                    <p>(61) 9 9334-8464 </p>
 
                 </div>
             </footer>
