@@ -11,7 +11,7 @@ export default class Emergencia extends Component {
                 <div className="card cardemerg">
                     <img className="card-img cardemergimg" src="https://imgur.com/jfVvlzU.gif" alt="Imagem do card" />
                     <div className="card-img-overlay">
-                        <h5 className="card-title cardemergtitle"></h5>
+                        <h5 className="card-title"></h5>
                     </div>
                 </div>
                 <div className="emergtexto">
