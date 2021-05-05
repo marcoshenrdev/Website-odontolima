@@ -1,5 +1,5 @@
 .navbar{
-  background-color: rgb(34, 200, 255);
+  background-color: rgb(1, 32, 73);
   color: rgb(255, 255, 255);
 }
 
@@ -9,9 +9,13 @@
 
 .homecard{
  margin-top: 2cm;
- background-color: rgb(34, 200, 255);
+ background-color: rgb(1, 32, 73);
  text-align: center;
  margin-bottom: 2cm;
+ border-radius: 1cm;
+}
+.homecardimg{
+  border-radius: 1cm;
 }
 .homecardtext{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -55,7 +59,7 @@
   font-size: 0.5cm;
 }
 .cardcttheader{
-  background-color: rgb(34, 200, 255);
+  background-color: rgb(1, 32, 73);
   color: white;
 }
 .cardctttext{
@@ -88,7 +92,7 @@
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: rgb(34, 200, 255);
+  background-color: rgb(1, 32, 73);
   color: rgb(255, 255, 255);
 }
 .footer .icons {
@@ -113,7 +117,7 @@
   
   .sobrecardtitle{
     margin-top: 1cm;
-    color: rgb(34, 200, 255);
+    color: rgb(1, 32, 73);
     text-shadow: 2px 2px rgb(51, 51, 51);
     text-decoration: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -146,7 +150,7 @@
     font-size: 0.5cm;
   }
   .cardcttheader{
-    background-color: rgb(34, 200, 255);
+    background-color: rgb(1, 32, 73);
     color: white;
   }
   .cardctttext{
@@ -160,7 +164,7 @@
     margin-right: auto;
   }
   .cardlocalheader{
-    background-color: rgb(34, 200, 255);
+    background-color: rgb(1, 32, 73);
     color: white;
     font-size: 0.5cm;
   }
@@ -171,7 +175,7 @@
     font-size: 0.7cm;
   }
   .cardemerg{
-    width: 9cm;
+    width: 13cm;
     height: 8cm;
     margin-top: 1cm;
     margin-left: auto;
@@ -182,21 +186,29 @@
     height: 100%;
   }
   .emergtexto{
-    background-color: rgb(34, 200, 255);
+    background-color: rgb(1, 32, 73);
     color: white;
     text-align: center;
-    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
   
   }
   .cardemergtitle{
     color: rgb(255, 255, 255);
-    text-shadow: 3px 3px rgb(34, 200, 255);
-    text-decoration: rgb(34, 200, 255);
+    text-shadow: 3px 3px rgb(1, 32, 73);
+    text-decoration: rgb(1, 32, 73);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 1.4cm;
     margin-top: 0.7cm;
     text-decoration: underline;
+  }
+  .list-group{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -0.5cm;
+    margin-top: 1cm;
+    width: 10cm;
   }
 
   .footer .icons {
@@ -244,7 +256,7 @@
       text-shadow: 3px 3px rgb(82, 82, 82);
       text-decoration: rgb(255, 255, 255);
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      background-color: rgb(34, 200, 255);
+      background-color: rgb(1, 32, 73);
       width: 20cm;
       border-radius: 0.1em;
       margin-left: auto;
@@ -283,7 +295,7 @@
       margin-right: auto;
     }
     .cardlocalheader{
-      background-color: rgb(34, 200, 255);
+      background-color: rgb(1, 32, 73);
       color: white;
       font-size: 0.5cm;
     }
@@ -295,8 +307,8 @@
     }
 
     .cardemerg{
-      width: 15cm;
-      height: 15cm;
+      width: 20cm;
+      height: 12cm;
       margin-top: 1cm;
       margin-left: auto;
       margin-right: auto;
@@ -306,21 +318,32 @@
       height: 100%;
     }
     .emergtexto{
-      background-color: rgb(34, 200, 255);
+      background-color: rgb(1, 32, 73);
       color: white;
       text-align: center;
-      font-style: italic;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
     
     }
     .cardemergtitle{
       color: rgb(255, 255, 255);
-      text-shadow: 3px 3px rgb(34, 200, 255);
-      text-decoration: rgb(34, 200, 255);
+      text-shadow: 3px 3px rgb(1, 32, 73);
+      text-decoration: rgb(1, 32, 73);
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       text-align: center;
       font-size: 1.4cm;
       margin-top: 0.7cm;
       text-decoration: underline;
+    }
+    .list-group{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: -0.5cm;
+      margin-top: 1cm;
+      width: 15cm;
+    }
+    .emergtitle{
+      font-size: 1cm;
     }
   }
 
