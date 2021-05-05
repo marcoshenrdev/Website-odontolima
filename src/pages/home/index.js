@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar';
 import Carousel from '../../Components/Carousel';
 import Cards from '../../Components/HomeCards';
 import Footer from '../../Components/Footer';
+import Footer2 from '../../Components/Footer2';
 import '../../App.css';
 
 export default class Home extends Component {
@@ -13,6 +14,7 @@ export default class Home extends Component {
                 <Carousel />
                 <Cards />
                 <Footer />
+                <Footer2 />
             </>
         )
     }

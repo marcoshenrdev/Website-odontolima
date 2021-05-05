@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../../Components/Navbar';
 import Footer from '../../Components/Footer';
+import Footer2 from '../../Components/Footer2';
 import '../../App.css';
 
 
@@ -25,6 +26,7 @@ export default class Contato extends Component {
                     </div>
                 </div>
                 <Footer />
+                <Footer2 />
             </>
         )
     }

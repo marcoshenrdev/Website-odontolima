@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../../Components/Navbar';
 import Footer from '../../Components/Footer';
+import Footer2 from '../../Components/Footer2';
 import '../../App.css';
 
 export default class Emergencia extends Component {
@@ -38,6 +39,7 @@ export default class Emergencia extends Component {
                 </div>
                 
                 <Footer />
+                <Footer2 />
             </>
         )
     }

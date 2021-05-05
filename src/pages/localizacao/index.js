@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../../Components/Navbar';
 import Footer from '../../Components/Footer';
+import Footer2 from '../../Components/Footer2';
 import Mapa from '../../Components/SimpleMap';
 import '../../App.css'
 
@@ -22,6 +23,7 @@ export default class Localizacao extends Component {
                 </div>
                 <Mapa />
                 <Footer />
+                <Footer2 />
             </>
         )
     }
